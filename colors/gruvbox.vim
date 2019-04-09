@@ -627,7 +627,7 @@ hi! link Float GruvboxPurple
 " Generic type
 hi! link Type GruvboxYellow
 " static, register, volatile, etc
-hi! link StorageClass GruvboxOrange
+hi! link StorageClass GruvboxBlue
 " struct, union, enum, etc.
 hi! link Structure GruvboxAqua
 " typedef
@@ -1187,6 +1187,8 @@ hi! link typeScriptHtmlElemProperties GruvboxFg1
 hi! link typeScriptNull GruvboxPurple
 hi! link typeScriptInterpolationDelimiter GruvboxAqua
 
+hi! link typescriptStorageClass GruvboxYellow
+hi! link typescriptFuncDef GruvboxBlueBold
 " }}}
 " PureScript: {{{
 
